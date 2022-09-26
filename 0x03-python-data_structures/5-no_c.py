@@ -6,5 +6,5 @@ def no_c(my_string):
             y.remove('c')
         if x == 'C':
             y.remove('C')
-    my_string = "".join(l)
+    my_string = "".join(y)
     return my_string
