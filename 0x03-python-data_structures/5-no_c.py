@@ -4,7 +4,7 @@ def no_c(my_string):
     for x in y:
         if x == 'c':
             y.remove('c')
-        if x == 'C':
-            y.remove('C')
-    my_string = "".join(y)
-    return my_string
+            if x == 'C':
+                y.remove('C')
+                my_string = "".join(y)
+                return my_string
