@@ -8,4 +8,3 @@ def square_matrix_simple(matrix=[]):
             Newsquare[i].append(y**2)
         i += 1
     return (Newsquare)
-
