@@ -2,4 +2,4 @@
 def raise_exception():
     class B(Exception):
         raise:
-            return b
+            return B
