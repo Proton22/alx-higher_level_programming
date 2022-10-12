@@ -24,6 +24,7 @@ class Node:
              raise TypeError("next_node must be a Node object")
          self.__next_node = value
 
+
 class SinglyLinkedList:
     def __str__(self):
         rtn = ""
@@ -42,6 +43,7 @@ class SinglyLinkedList:
 
     def sorted_insert(self, value):
         ptr = self.__head
+
         while ptr is not None:
             if ptr.data > value:
                 break
