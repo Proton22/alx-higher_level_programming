@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """Define classes for a singly-linked list."""
 
 
@@ -47,10 +48,8 @@ class SinglyLinkedList:
 
     def sorted_insert(self, value):
         """Insert a new Node to the SinglyLinkedList.
-
         The node is inserted into the list at the correct
         ordered numerical position.
-
         Args:
             value (Node): The new Node to insert.
         """
