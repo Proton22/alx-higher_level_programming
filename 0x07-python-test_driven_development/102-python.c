@@ -4,7 +4,6 @@
 
 /**
  * print_python_string - Prints string information
- *
  * @p: Python Object
  * Return: no return
  */
