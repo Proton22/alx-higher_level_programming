@@ -6,5 +6,3 @@
 
 class BaseGeometry:
     pass
-obj = BaseGeometry()
-print(obj)
