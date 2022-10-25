@@ -3,6 +3,7 @@
     3-is_kind_of_class: object is an instance of a class
 """
 
+
 def is_kind_of_class(obj, a_class):
     """
        function that returns a class that inherited from it.
