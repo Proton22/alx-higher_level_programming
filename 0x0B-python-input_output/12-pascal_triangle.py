@@ -11,14 +11,14 @@ def pascal_triangle(n):
             n (int): number of lists and digits
         Returns: list of lists
     """
-    t_row = [1]
-    temp_l = [0]
-    pTri = []
-
     if n <= 0:
-        return pTri
-
-    for i in range(n):
-        pTri.append(t_row)
-        t_row = [l+r for l, r in zip(t_row + temp_l, temp_l + t_row)]
-    return pTri
+        return []
+    triangles = [[1]]
+    while len(triangles) != n:
+        tri = triangles[-1]
+        tmp = [1]
+        for i in range(len(tri) - 1):
+            tmp.append(tri[i] + tri[i + 1])
+        tmp.append(1)
+        triangles.append(tmp)
+    return triangles
